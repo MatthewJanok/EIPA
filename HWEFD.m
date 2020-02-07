@@ -35,11 +35,11 @@ for j = 1:ny
         else
 
             %Set the Bulk Nodes
-            if i < 20 && i > 10 && j<20 && j>10
-                G(n,n) = -2
-            else
+%             if i < 20 && i > 10 && j<20 && j>10
+%                 G(n,n) = -2;
+%             else
                 G(n,n) = -4;
-            end
+%             end
                 G(n,nxm) = 1;
                 G(n,nxp) = 1;
                 G(n,nym) = 1;
